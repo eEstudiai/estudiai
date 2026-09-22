@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>E-mail confirmado | EstudaIA</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 24px;
+      background: #f4f7fb;
+      font-family: Arial, Helvetica, sans-serif;
+      color: #1f2937;
+    }
+
+    .card {
+      width: 100%;
+      max-width: 480px;
+      background: #ffffff;
+      border-radius: 18px;
+      padding: 40px 32px;
+      text-align: center;
+      box-shadow: 0 10px 35px rgba(0, 0, 0, 0.08);
+    }
+
+    .logo {
+      width: 72px;
+      height: 72px;
+      margin: 0 auto 20px;
+      border-radius: 18px;
+      background: #0B3FA8;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #ffffff;
+      font-size: 32px;
+      font-weight: bold;
+    }
+
+    h1 {
+      margin: 0 0 16px;
+      color: #0B3FA8;
+      font-size: 26px;
+    }
+
+    p {
+      margin: 0 0 16px;
+      font-size: 16px;
+      line-height: 1.6;
+    }
+
+    .button {
+      display: inline-block;
+      margin-top: 12px;
+      padding: 14px 24px;
+      background: #0B3FA8;
+      color: #ffffff;
+      text-decoration: none;
+      border-radius: 9px;
+      font-weight: bold;
+      font-size: 16px;
+    }
+
+    .button:hover {
+      background: #082f7f;
+    }
+
+    .small {
+      margin-top: 24px;
+      color: #6b7280;
+      font-size: 13px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <main class="card">
+
+    <div class="logo">✓</div>
+
+    <h1>E-mail confirmado!</h1>
+
+    <p>
+      Seu endereço de e-mail foi confirmado com sucesso.
+    </p>
+
+    <p>
+      Sua conta está pronta para usar o EstudaIA.
+    </p>
+
+    <a
+      class="button"
+      href="estudiai://auth/callback"
+    >
+      Abrir EstudaIA
+    </a>
+
+    <p class="small">
+      Se o aplicativo não abrir automaticamente,
+      toque no botão acima.
+    </p>
+
+  </main>
+
+</body>
+</html>
